@@ -1,9 +1,9 @@
 _pkgname=dwm
-pkgname=$_pkgname-larbs-git
+pkgname=$_pkgname-mielcus-git
 pkgver=6.2.r1888.0ac09e0
 pkgrel=1
-pkgdesc="Luke's build of dwm"
-url=https://github.com/LukeSmithxyz/dwm
+pkgdesc="mielcus's build of dwm"
+url=https://github.com/mielcus/dwm
 arch=(i686 x86_64)
 license=(MIT)
 makedepends=(git)
@@ -15,7 +15,7 @@ optdepends=(
 	'st: terminal emulator')
 provides=($_pkgname)
 conflicts=($_pkgname)
-source=(git+https://github.com/LukeSmithxyz/dwm)
+source=(git+https://github.com/mielcus/dwm)
 sha256sums=('SKIP')
 
 pkgver() {
