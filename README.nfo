@@ -6,4 +6,17 @@ Since I'm a soydev, a lot of work is "taken" from Luke's Smith dwm build.
 
 ---
 
-Todo  
+BINDINGS:
+
+Super/Fn + F10/F11 : increase/decrease volume 
+Super + F6/F8 : restart/next song
+Super+Shift + F6/F8 : prev/loop song
+Super/S+Shift/Fn += F7/P : pause/resume song
+Super/S+Shift + [/] : 10/60s seek in song 
+Super + m : ncmpmpp (music)
+Super + PageUp : emoji picker (dmenuunicode)
+Super + d : dmenu
+Super+Shift + d : bitwarden-dmenu
+Shift+PrtSc : screenshotting tools
+Super/S+Shift + PrtSc : recording tools/stop recording 
+
