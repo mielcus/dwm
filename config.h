@@ -17,9 +17,9 @@ static int smartgaps          = 0;        /* 1 means no outer gap when there is 
 static int showbar            = 1;        /* 0 means no bar */
 static int topbar             = 1;        /* 0 means bottom bar */
 static char *fonts[]          = { "LiberationSans:size=17", "NotoColorEmoji:pixelsize=16:antialias=true:autohint=true"  };
-static char normbgcolor[]           = "#ffffff"; // bar main color
-static char normbordercolor[]       = "#ff3300"; // border pixel color
-static char normfgcolor[]           = "#ff3300"; // font main bar color  
+static char normbgcolor[]           = "#15253f"; // bar main color ffffff
+static char normbordercolor[]       = "#ff3300"; // border pixel color ff3300
+static char normfgcolor[]           = "#ffffff"; // font main bar color ff3300  
 static char selfgcolor[]            = "#ffffff"; // font 2nd bar color  
 static char selbordercolor[]        = "#33cc33"; // border pixel focused color 
 static char selbgcolor[]            = "#15253f"; // bar 2nd color ff3300/1d2e48
