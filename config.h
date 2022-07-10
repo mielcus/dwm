@@ -20,7 +20,7 @@ static char *fonts[]          = { "LiberationSans:size=17", "NotoColorEmoji:pixe
 static char normbgcolor[]           = "#15253f"; // bar main color ffffff
 static char normbordercolor[]       = "#ff3300"; // border pixel color ff3300
 static char normfgcolor[]           = "#ffffff"; // font main bar color ff3300  
-static char selfgcolor[]            = "#ffffff"; // font 2nd bar color  
+static char selfgcolor[]            = "#33cc33"; // font 2nd bar color  
 static char selbordercolor[]        = "#33cc33"; // border pixel focused color 
 static char selbgcolor[]            = "#15253f"; // bar 2nd color ff3300/1d2e48
 static char *colors[][3] = {
@@ -185,7 +185,8 @@ static Key keys[] = {
 	{ MODKEY,			XK_Home,		togglesticky,	{0} },
 	/* { MODKEY|ShiftMask,		XK_s,		spawn,		SHCMD("") }, */
 	{ MODKEY,			XK_d,		spawn,          {.v = (const char*[]){ "dmenu_run", NULL } } },
-	{ MODKEY|ShiftMask,		XK_d,		spawn,		{.v = (const char*[]){ "bitwarden-dmenu", NULL } } },
+	{ MODKEY|ShiftMask,		XK_d,		spawn,		{.v = (const char*[]){ "bitwarden-desktop", NULL } } },
+	{ MODKEY|ShiftMask,		XK_b,		spawn,		{.v = (const char*[]){ "discord", NULL } } },
 	{ MODKEY,			XK_f,		togglefullscr,	{0} },
 	{ MODKEY|ShiftMask,		XK_f,		setlayout,	{.v = &layouts[8]} },
 	//{ MODKEY,			XK_g,		shiftview,	{ .i = -1 } },
